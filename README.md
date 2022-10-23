@@ -2,7 +2,9 @@
 
 This project allows for you to create a garage door button within Home Assistant using MQTT. I have a garage door which only has a single trigger for open/close (Isomatic 500) and so I've therefore kept it very simple.
 
-I used a Raspberry Pi Pico W and a single channel relay which you can get from here: https://thepihut.com/products/single-channel-relay-for-raspberry-pi-pico
+I used a Raspberry Pi Pico W and a single channel relay which you can get from here: https://thepihut.com/products/single-channel-relay-for-raspberry-pi-pico 
+
+The specifications and instructions for the relay can be found here: https://learn.sb-components.co.uk/Pico-Single-Channel-Relay-Hat
 
 I've used the Micropython library mqtt_as from here: https://github.com/peterhinch/micropython-mqtt/tree/master/mqtt_as This file should be placed in the root filesystem of the Pico as mqtt_as.py
 
